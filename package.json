@@ -1,0 +1,21 @@
+{
+  "name": "parking_lot",
+  "version": "1.0.0",
+  "description": "assignment 1 - parking lot ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Tal Reuven, Itamar Romano",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/util-dynamodb": "^3.13.0",
+    "@aws-sdk/client-dynamodb": "^3.13.0",
+    "aws-sdk": "^2.900.0",
+    "dotenv": "^8.5.1",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "shortid": "^2.2.16"
+  }
+}
